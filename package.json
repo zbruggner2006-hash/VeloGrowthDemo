@@ -1,0 +1,20 @@
+{
+  "name": "velo-growth-demo",
+  "version": "1.0.0",
+  "description": "Automated receptionist demo - missed call text-back, AI qualification, and booking handoff",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "twilio": "^5.3.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
