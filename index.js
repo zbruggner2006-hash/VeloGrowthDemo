@@ -51,6 +51,7 @@ app.post("/voice", (req, res) => {
 app.post("/voice/status", async (req, res) => {
   const dialCallStatus = req.body.DialCallStatus; // "completed" | "no-answer" | "busy" | "failed"
   const callerNumber = req.body.From;
+console.log(`[/voice/status] DialCallStatus=${dialCallStatus} From=${callerNumber} To=${req.body.To}`);
 
   const twiml = new twilio.twiml.VoiceResponse();
 
