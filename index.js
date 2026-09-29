@@ -38,7 +38,7 @@ app.post("/voice", (req, res) => {
   }
 
   const dial = twiml.dial({
-    timeout: 20, // seconds before it counts as "missed"
+    timeout: 8, // seconds before it counts as "missed"
     action: "/voice/status",
     callerId: TWILIO_PHONE_NUMBER,
   });
