@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Velo Growth</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #555555;
+    --accent: #2563eb;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #14161a; --text: #f2f2f2; --muted: #a3a3a3; --accent: #60a5fa; }
+  }
+  :root[data-theme="dark"] { --bg: #14161a; --text: #f2f2f2; --muted: #a3a3a3; --accent: #60a5fa; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    max-width: 720px;
+    margin-inline: auto;
+  }
+  h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin-bottom: 2.5rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.5rem; }
+  p, li { color: var(--text); }
+  a { color: var(--accent); }
+  .cta-box {
+    background: rgba(37, 99, 235, 0.08);
+    border: 1px solid rgba(37, 99, 235, 0.25);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .cta-box h3 { margin-top: 0; font-size: 1.05rem; }
+  .script {
+    font-style: italic;
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(128,128,128,0.25);
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  footer a { margin-right: 1.5rem; }
+</style>
+</head>
+<body>
+  <h1>Velo Growth</h1>
+  <p class="tagline">Never miss another customer call.</p>
+
+  <p>Velo Growth provides automated call-answering support for small, local service businesses — including med spas and other appointment-based businesses. When a customer calls and the business can't pick up right away, our system follows up automatically so the lead isn't lost.</p>
+
+  <h2>How it works</h2>
+  <p>A customer calls the business phone number directly. If the call isn't answered right away, they receive one automated text message asking what they need and offering a link to schedule an appointment.</p>
+
+  <div class="cta-box">
+    <h3>📞 Call Opt-In Notice</h3>
+    <p>By calling a business phone number that uses the Velo Growth service, you consent to receive one automated SMS follow-up if your call isn't answered. This is explained verbally when applicable:</p>
+    <p class="script">"Thank you for calling [Business Name]. If we're unable to reach you right away, you'll receive one automated text message to help you get scheduled. Message frequency varies based on your calls. Msg & data rates may apply. Reply STOP to cancel, HELP for help. By calling, you consent to receive this text."</p>
+    <p>Reply <strong>STOP</strong> at any time to opt out of future messages. Reply <strong>HELP</strong> for assistance.</p>
+  </div>
+
+  <h2>Who we work with</h2>
+  <p>Velo Growth currently partners with local service businesses such as med spas, helping them respond faster to inbound customer calls without adding front-desk staff.</p>
+
+  <footer>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms.html">Terms &amp; Conditions</a>
+  </footer>
+</body>
+</html>
